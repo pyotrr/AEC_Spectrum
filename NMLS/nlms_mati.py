@@ -3,7 +3,7 @@ def nmls_mati(x,p,u):
     # p - number of taps
     # u - learning rate
 
-    #zamienic d z x
+   
     import numpy as np
     n = len(x)
     h = np.zeros(p-1) #init filter
